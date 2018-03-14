@@ -26,7 +26,9 @@ var gailledCheeseIngredients=[
       'skittles']
       
       function addElementToBeginningOfArray(array,element){
-        return array.unshift(element)
+        var array = array;
+        array.unshift(element);
+        return array;
       }
       function destructivelyAddElementToBeginningOfArray(array,element)
       {
@@ -37,8 +39,9 @@ var gailledCheeseIngredients=[
         
       }
       function addElementToEndOfArray(array,element){
-        
-        return array.push(element);
+        var array = array;
+        array.push(element);
+        return array;
       }
       function destructivelyAddElementToEndOfArray(array,element){
         var newArray = array;
