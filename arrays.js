@@ -26,6 +26,7 @@ var gailledCheeseIngredients=[
       'skittles']
       
       function addElementToBeginningOfArray(array,element){
+        var array = array;
         array.unshift(element);
         return array;
       }
@@ -38,6 +39,7 @@ var gailledCheeseIngredients=[
         
       }
       function addElementToEndOfArray(array,element){
+        var array = array;
         array.push(element);
         return array;
       }
