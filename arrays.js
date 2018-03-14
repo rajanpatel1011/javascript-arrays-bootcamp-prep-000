@@ -66,7 +66,6 @@ var gailledCheeseIngredients=[
         return array;
       }
       function removeElementFromEndOfArray(array){
-        var newArray = array
-        array.slice(-1);
-        return newArray;
+        
+        return array;
       }
