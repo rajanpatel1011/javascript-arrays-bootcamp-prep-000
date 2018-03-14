@@ -32,9 +32,8 @@ var gailledCheeseIngredients=[
       function destructivelyAddElementToBeginningOfArray(array,element)
       {
         var newArray = [];
-        newArray[0]=array;
-         newArray[1]= element;
-         var addArrey = [element]
-        return addArrey;
+        newArray=array;
+         newArray.unshift(element)
+        return newArray;
         
       }
