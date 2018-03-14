@@ -26,7 +26,7 @@ var gailledCheeseIngredients=[
       'skittles']
       
       function addElementToBeginningOfArray(array,element){
-        chocolateBars[element-1]=array;
+        chocolateBars.unnshift(array);
         return chocolateBars;
       }
       function destructivelyAddElementToBeginningOfArray(array,element)
