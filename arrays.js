@@ -26,14 +26,14 @@ var gailledCheeseIngredients=[
       'skittles']
       
       function addElementToBeginningOfArray(array,element){
-        array.unshift(element);
-        return array;
+        element.unshift(array);
+        return element;
       }
       function destructivelyAddElementToBeginningOfArray(array,element)
       {
         var newArray = [];
-        newArray = chocolateBars;
-        newArray[element-1] = array;
+        newArray[0]=array;
+         newArray[1]= element;
         return newArray;
         
       }
